@@ -24,24 +24,24 @@ The “ISS-Course Recommender” project intends to cater the appropriate course
 | PADMINI RAMESH | A0198465L |Documentation. Data cleansing. Proof reading the document.Preparation of Drools rules. Integration of rules with the Application.| e0402006@u.nus.edu |
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-[![Project Video](https://youtu.be/WtUoQ-CJBOE/0.jpg)](https://youtu.be/WtUoQ-CJBOE)
+[![Project Video](https://github.com/Shashankwer/MR_RS_PROJECT_NUSISS/blob/master/Video/image.png)](https://youtu.be/WtUoQ-CJBOE)
 
 
 ---
 ## SECTION 5 : USER GUIDE
-[User Guide](https://docs.google.com/forms/d/1Pe5Oi9FR-Nk6JKUmBqoGLRh7iSjN8B8QPj8mow0wFZc/edit?ts=5d32d910)
+[User Guide](https://github.com/Shashankwer/MR_RS_PROJECT_NUSISS/blob/master/User%20Guide/User%20Guide.pdf)
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
-[Project Report](https://docs.google.com/forms/d/1Pe5Oi9FR-Nk6JKUmBqoGLRh7iSjN8B8QPj8mow0wFZc/edit?ts=5d32d910) 
+[Project Report](https://github.com/Shashankwer/MR_RS_PROJECT_NUSISS/blob/master/Project%20Report/ISS%20recommendation%20system.pdf) 
 
 ---
 ## SECTION 7 : MISCELLANEOUS
-[Installation Document](https://docs.google.com/forms/d/1Pe5Oi9FR-Nk6JKUmBqoGLRh7iSjN8B8QPj8mow0wFZc/edit?ts=5d32d910)
+[Installation Guide](https://github.com/Shashankwer/MR_RS_PROJECT_NUSISS/blob/master/User%20Guide/Installation%20Guide.pdf)
 
 [Survey](https://docs.google.com/forms/d/1Pe5Oi9FR-Nk6JKUmBqoGLRh7iSjN8B8QPj8mow0wFZc/edit?ts=5d32d910) 
 
-[Code](https://docs.google.com/forms/d/1Pe5Oi9FR-Nk6JKUmBqoGLRh7iSjN8B8QPj8mow0wFZc/edit?ts=5d32d910)
+[Code](https://github.com/Shashankwer/MR_RS_PROJECT_NUSISS/tree/master/System%20Code)
 
 [Video Download Link](https://drive.google.com/file/d/1Ra1Fnz2KdJu7fFlUmMT3xz0z1HmROqXs/view?usp=sharing)
 
