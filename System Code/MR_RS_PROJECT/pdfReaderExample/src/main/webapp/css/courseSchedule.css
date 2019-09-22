@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+* {
+box-sizing: border-box;	
+}
+
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	margin:0;
+	background-image:linear-gradient(to right,rgba(142,198,171,0.49),rgba(238,242,242,1))
+}
+
+header {
+	padding:20px;
+	text-align:center;
+	color:#373B44;
+	font-size:1.6em;
+	font-family:Comic Sans MS;
+}
+
+footer {
+	padding:4px;
+	text-align:auto;
+	margin-bottom:0;
+	margin-top:0;
+	color:#0000ff;
+	font-size:0.7rem;
+	
+}
+
+.heading {
+background-color:#000077;
+color:white;
+white-space:pre-wrap;
+font-size:small;
+}
+
+.cardBody {
+background-color:white;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+display:inline-block
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.scroll{
+overflow:auto;
+white-space:nowrap;
+margin:30px;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #000099;
+  border-radius:10px;
+}
+
+td{
+padding:10px;
+font-size:1em;
+font-family:cursive;
+white-space:pre-wrap;
+font-size:small;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+p{
+padding:10px;
+font-family:cursive;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <!-- Domain model configuration -->
+  <scanAnnotatedClasses/>
+  <!-- Score configuration -->
+  <scoreDirectorFactory>
+    <!--  <easyScoreCalculatorClass>com.example.demo.ScoreCalculator</easyScoreCalculatorClass>-->
+    <scoreDrl>com/example/courseAssignmentScore.drl</scoreDrl>
+  </scoreDirectorFactory>
+
+  <!-- Optimization algorithms configuration -->
+  <termination>
+    <secondsSpentLimit>30</secondsSpentLimit>
+  </termination>
+</solver>

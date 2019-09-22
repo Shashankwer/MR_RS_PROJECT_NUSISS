@@ -1,0 +1,653 @@
+2019-09-21 22:33:16,046 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-21 22:34:36,725 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-21 22:34:43,442 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pdfReaderExample/src/main/java
+2019-09-21 22:34:43,443 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pdfReaderExample/src/main/resources
+2019-09-21 22:34:43,445 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pdfReaderExample/src/main/resources
+2019-09-21 22:34:43,446 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pdfReaderExample/src/test/java
+2019-09-21 22:34:44,005 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2019-09-21 22:34:47,812 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:34:47,819 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 22:34:47,837 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 22:34:47,889 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:34:47,890 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:35:16,677 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-21 22:35:18,563 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:18,566 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:35:18,567 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:35:18,569 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:18,570 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:35:22,428 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:22,431 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 22:35:22,446 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 22:35:22,472 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:22,472 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:35:50,604 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-21 22:35:52,187 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:52,191 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:35:52,191 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:35:52,194 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:52,194 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:35:55,572 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:55,574 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 22:35:55,591 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 22:35:55,616 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:35:55,617 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:39:27,495 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-21 22:39:30,656 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:39:30,660 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:39:30,660 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 22:39:30,663 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:39:30,663 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:39:30,667 [Worker-1: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-21 22:39:30,667 [Worker-1: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-21 22:39:30,688 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:52:10,565 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-21 22:52:53,635 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:52:53,640 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 22:52:53,658 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 22:52:53,664 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:52:53,664 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:53:32,661 [Worker-9: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-21 22:53:32,664 [Worker-9: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-21 22:53:37,088 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:53:37,092 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 22:53:37,096 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 22:53:37,208 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:53:37,208 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 22:53:37,210 [Worker-13: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-21 22:53:37,211 [Worker-13: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-21 22:53:37,236 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 22:54:30,443 [Worker-9: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-21 22:54:30,444 [Worker-9: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-21 23:07:27,383 [Worker-4: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-21 23:07:38,364 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:07:38,367 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 23:07:38,368 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-21 23:07:38,370 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:07:38,371 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 23:07:38,371 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-21 23:07:38,371 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-21 23:07:38,378 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:07:45,917 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:07:45,919 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 23:07:45,934 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 23:07:46,024 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:07:46,024 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 23:08:13,860 [Worker-7: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-21 23:08:13,860 [Worker-7: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-21 23:08:18,343 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:08:18,345 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-21 23:08:18,350 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-21 23:08:18,513 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:08:18,513 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-21 23:08:18,514 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-21 23:08:18,514 [Worker-4: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-21 23:08:18,518 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-21 23:08:38,429 [Worker-4: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-21 23:08:38,429 [Worker-4: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 00:17:13,660 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 00:17:13,696 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 00:17:13,696 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 00:17:13,701 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 00:17:13,701 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 00:18:17,151 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 00:18:17,151 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 00:18:17,152 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 00:18:17,157 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 00:18:17,157 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:26:45,349 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:26:45,350 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 01:26:45,350 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 01:26:45,354 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:26:45,354 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:34:14,491 [Worker-35: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 01:34:28,901 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:34:28,904 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 01:34:28,906 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:34:28,906 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:34:28,907 [Worker-35: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 01:34:28,907 [Worker-35: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 01:34:28,911 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:44:50,724 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:44:50,724 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 01:44:50,726 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:44:50,726 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:48:29,640 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:48:29,641 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 01:48:29,642 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:48:29,642 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:51:27,091 [Worker-26: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 01:51:27,091 [Worker-26: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 01:51:33,255 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:51:33,258 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-09-22 01:51:33,313 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:51:33,313 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:51:33,313 [Worker-33: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 01:51:33,313 [Worker-33: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 01:51:33,318 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:52:01,676 [Worker-30: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 01:52:01,676 [Worker-30: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 01:52:04,580 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:52:04,581 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-09-22 01:52:04,593 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:52:04,593 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 01:52:04,593 [Worker-38: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 01:52:04,593 [Worker-38: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 01:52:04,597 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 01:52:13,575 [Worker-26: Launching Executing test in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 01:52:13,576 [Worker-26: Launching Executing test in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2019-09-22 01:52:22,730 [Worker-33: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 01:52:22,730 [Worker-33: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 09:18:02,530 [Worker-42: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 09:18:05,055 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:18:05,058 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:18:05,058 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:18:05,060 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:18:05,061 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:18:05,061 [Worker-42: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 09:18:05,061 [Worker-42: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 09:18:05,065 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:18:19,922 [Worker-38: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 09:18:19,922 [Worker-38: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 09:18:24,527 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:18:24,528 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:18:24,546 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 09:18:24,611 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:18:24,611 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:18:24,611 [Worker-30: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 09:18:24,611 [Worker-30: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 09:18:24,615 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:19:12,329 [Worker-45: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 09:19:12,330 [Worker-45: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 09:19:15,543 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:19:15,545 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:19:15,554 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 09:19:15,592 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:19:15,593 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:19:15,593 [Worker-42: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 09:19:15,593 [Worker-42: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 09:19:15,597 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:19:30,169 [Worker-43: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 09:19:30,169 [Worker-43: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 09:20:27,310 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:20:27,312 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:20:27,318 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 09:20:27,320 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:20:27,321 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:30:54,734 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:30:54,734 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:30:54,734 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:30:54,739 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:30:54,739 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:37:38,549 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:37:38,550 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:37:38,550 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:37:38,554 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:37:38,554 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:38:07,813 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:38:07,813 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:38:07,813 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:38:07,817 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:38:07,817 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:41:40,375 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:41:40,376 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:41:40,376 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:41:40,381 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:41:40,381 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:42:49,406 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:42:49,407 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:42:49,407 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:42:49,411 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:42:49,411 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:45:07,697 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:45:07,697 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:45:07,697 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:45:07,702 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:45:07,702 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:49:36,306 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:49:36,307 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:49:36,307 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:49:36,311 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:49:36,311 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:49:45,305 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:49:45,305 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:49:45,305 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:49:45,309 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:49:45,309 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:50:24,033 [Worker-52: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 09:50:24,034 [Worker-52: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 09:50:27,079 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:50:27,081 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:50:27,084 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 09:50:27,176 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:50:27,176 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:50:27,177 [Worker-52: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 09:50:27,177 [Worker-52: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 09:50:27,180 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:50:37,570 [Worker-58: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 09:50:37,570 [Worker-58: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 09:51:23,413 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:51:23,415 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:51:23,421 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 09:51:23,424 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:51:23,424 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:57:38,889 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:57:38,889 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:57:38,890 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:57:38,894 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:57:38,894 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 09:58:41,078 [Worker-56: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:58:41,078 [Worker-56: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 09:58:41,079 [Worker-56: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 09:58:41,085 [Worker-56: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 09:58:41,086 [Worker-56: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:03:00,129 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:03:00,129 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:03:00,130 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:03:00,134 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:03:00,134 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:09:39,089 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:09:39,090 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:09:39,090 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:09:39,095 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:09:39,095 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:12:33,063 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:12:33,063 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:12:33,063 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:12:33,067 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:12:33,067 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:14:01,341 [Worker-76: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 10:14:04,134 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:04,138 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:14:04,140 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:04,140 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:14:04,141 [Worker-76: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:14:04,141 [Worker-76: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:14:04,144 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:19,024 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-09-22 10:14:33,036 [Worker-73: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:14:33,036 [Worker-73: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 10:14:36,383 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:36,385 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-09-22 10:14:36,407 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:36,407 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:14:36,407 [Worker-58: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:14:36,407 [Worker-58: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:14:36,411 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:14:46,621 [Worker-75: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:14:46,621 [Worker-75: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 10:16:34,660 [Worker-58: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 10:16:36,912 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:16:36,916 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:16:36,916 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:16:36,918 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:16:36,918 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:16:36,918 [Worker-58: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:16:36,918 [Worker-58: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:16:36,922 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:23:07,012 [Worker-77: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:23:07,012 [Worker-77: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 10:23:10,322 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:23:10,323 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:23:10,339 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 10:23:10,370 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:23:10,370 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:23:10,371 [Worker-72: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:23:10,371 [Worker-72: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:23:10,376 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:23:21,141 [Worker-76: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:23:21,141 [Worker-76: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 10:24:00,395 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:24:00,397 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:24:00,404 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 10:24:00,406 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:24:00,407 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:27:01,447 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:27:01,447 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:27:01,448 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:27:01,452 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:27:01,452 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:28:12,933 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:28:12,933 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:28:12,933 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:28:12,937 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:28:12,938 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:31:05,207 [Worker-85: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 10:31:15,100 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:31:15,103 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:31:15,103 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 10:31:15,105 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:31:15,105 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:31:15,105 [Worker-85: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:31:15,106 [Worker-85: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:31:15,109 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:40:33,271 [Worker-85: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:40:33,272 [Worker-85: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 10:40:37,069 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:40:37,071 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:40:37,126 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 10:40:37,174 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:40:37,175 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 10:40:37,175 [Worker-85: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 10:40:37,175 [Worker-85: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 10:40:37,179 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:40:43,068 [Worker-89: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 10:40:43,068 [Worker-89: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 10:41:24,176 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:41:24,178 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 10:41:24,187 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 10:41:24,191 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 10:41:24,191 [Worker-83: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:19:10,893 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:10,894 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:19:10,894 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:19:10,898 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:10,898 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:19:19,580 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:19,580 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:19:19,580 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:19:19,584 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:19,584 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:19:45,809 [Worker-98: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:19:45,809 [Worker-98: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 11:19:51,492 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:51,494 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:19:51,501 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:19:51,537 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:19:51,537 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:19:51,538 [Worker-97: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 11:19:51,538 [Worker-97: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 11:19:51,541 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:20:27,374 [Worker-97: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:20:27,374 [Worker-97: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 11:20:30,615 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:20:30,616 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:20:30,619 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:20:30,644 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:20:30,645 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:20:30,645 [Worker-98: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 11:20:30,645 [Worker-98: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 11:20:30,648 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:20:37,398 [Worker-100: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:20:37,398 [Worker-100: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 11:31:02,486 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:02,486 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:31:02,486 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:31:02,490 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:02,490 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:31:09,737 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:09,738 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:31:09,738 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:31:09,740 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:09,740 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:31:21,880 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:21,881 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:31:21,881 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:31:21,883 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:21,883 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:31:30,192 [Worker-99: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:31:30,192 [Worker-99: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 11:31:33,945 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:33,947 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:31:33,954 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:31:34,029 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:34,029 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:31:34,029 [Worker-99: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 11:31:34,029 [Worker-99: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 11:31:34,032 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:31:49,793 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-09-22 11:32:42,949 [Worker-98: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:32:42,949 [Worker-98: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 11:33:07,752 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:33:07,753 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:33:07,756 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:33:07,758 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:33:07,758 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:39:14,982 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:39:14,983 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:39:14,987 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:39:14,990 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:39:14,991 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:39:22,720 [Worker-99: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:39:22,721 [Worker-99: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:39:22,721 [Worker-99: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:39:22,724 [Worker-99: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:39:22,725 [Worker-99: Launching pdfReaderExample - PdfReaderExampleApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:43:32,272 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:32,272 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:43:32,272 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:43:32,276 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:32,276 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:43:39,140 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:39,141 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:43:39,141 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:43:39,144 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:39,144 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:43:45,567 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:45,567 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:43:45,568 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:43:45,570 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:43:45,570 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:49:17,558 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:49:17,559 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:49:17,559 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:49:17,563 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:49:17,563 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:50:35,777 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:50:35,778 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:50:35,781 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:50:35,783 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:50:35,783 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:51:18,265 [Worker-115: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:51:18,265 [Worker-115: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 11:51:21,181 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:51:21,183 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:51:21,186 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:51:21,219 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:51:21,219 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:51:21,219 [Worker-115: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 11:51:21,219 [Worker-115: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 11:51:21,222 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:52:04,994 [Worker-115: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:52:04,994 [Worker-115: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 11:53:18,334 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:53:18,336 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:53:18,345 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:53:18,348 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:53:18,348 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:58:30,057 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:30,057 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:58:30,058 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:58:30,062 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:30,062 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:58:40,904 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:40,904 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 11:58:40,904 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:58:40,907 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:40,907 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:58:48,301 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:48,303 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:58:48,306 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:58:48,309 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:58:48,309 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:59:19,411 [Worker-114: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:59:19,411 [Worker-114: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 11:59:23,136 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:59:23,137 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 11:59:23,140 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 11:59:23,174 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:59:23,174 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 11:59:23,175 [Worker-114: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 11:59:23,175 [Worker-114: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 11:59:23,178 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 11:59:29,264 [Worker-111: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 11:59:29,264 [Worker-111: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 12:02:55,912 [Worker-111: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 12:03:05,477 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:03:05,480 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:03:05,480 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:03:05,482 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:03:05,483 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:03:05,483 [Worker-111: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:03:05,483 [Worker-111: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:03:05,486 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:03:18,672 [Worker-114: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:pdfReaderExample:0.0.1-SNAPSHOT @ D:\ProjectFres\pdfReaderExample\pom.xml.
+2019-09-22 12:03:21,588 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:03:21,612 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:03:21,612 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:03:21,823 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:03:21,823 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:03:21,823 [Worker-114: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:03:21,823 [Worker-114: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:03:21,827 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:07:44,472 [Worker-121: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:07:44,473 [Worker-121: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 12:07:48,601 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:07:48,603 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:07:48,619 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:07:48,714 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:07:48,714 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:07:48,714 [Worker-122: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:07:48,714 [Worker-122: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:07:48,717 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:07:54,659 [Worker-122: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:07:54,659 [Worker-122: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 12:14:12,501 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:14:12,502 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:14:12,509 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:14:12,512 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:14:12,512 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:15:29,205 [Worker-121: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:15:29,205 [Worker-121: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 12:15:45,463 [Worker-124: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:15:45,463 [Worker-124: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 12:18:30,648 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:18:30,650 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:18:30,658 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:18:30,661 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:18:30,661 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:19:49,080 [Worker-115: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for pdfReaderExample
+2019-09-22 12:19:49,956 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:19:49,956 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:19:49,958 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:19:50,743 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:19:50,743 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:19:50,744 [Worker-121: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:19:50,744 [Worker-121: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:19:50,747 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:20:37,758 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:20:37,759 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:20:37,759 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:20:37,763 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:20:37,763 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:23:53,267 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:23:53,268 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:23:53,271 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:23:53,273 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:23:53,273 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:25:49,770 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:25:49,771 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:25:49,771 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:25:49,779 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:25:49,779 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:27:54,845 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:27:54,847 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:27:54,850 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:27:54,854 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:27:54,854 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:33:19,433 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:33:19,435 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:33:19,439 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:33:19,442 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:33:19,442 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:35:05,731 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:35:05,733 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:35:05,735 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:35:05,738 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:35:05,738 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:35:55,106 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:35:55,108 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:35:55,112 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:35:55,115 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:35:55,115 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:36:20,566 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:36:20,567 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:36:20,570 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:36:20,572 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:36:20,572 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:39:37,923 [Worker-130: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:39:37,923 [Worker-130: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 12:39:41,954 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:39:41,956 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:39:41,959 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:39:41,994 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:39:41,995 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:39:41,995 [Worker-120: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:39:41,995 [Worker-120: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:39:42,001 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:39:52,053 [Worker-115: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:39:52,053 [Worker-115: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 12:40:38,431 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:40:38,433 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:40:38,440 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:40:38,442 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:40:38,442 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:43:03,077 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:03,078 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:43:03,081 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:43:03,084 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:03,084 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:43:08,374 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:08,376 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:43:08,380 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:43:08,383 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:08,383 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:43:32,678 [Worker-131: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:43:32,678 [Worker-131: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 12:43:36,599 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:36,600 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:43:36,604 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:43:36,646 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:36,646 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:43:36,647 [Worker-129: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:43:36,647 [Worker-129: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:43:36,651 [Worker-129: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:43:45,519 [Worker-129: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:43:45,519 [Worker-129: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-09-22 12:44:33,564 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:44:33,566 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:44:33,572 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:44:33,574 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:44:33,574 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:50:36,626 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:36,627 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:50:36,627 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:50:36,628 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:36,628 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:50:42,922 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:42,923 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:50:42,923 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:50:42,966 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:42,966 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:50:55,359 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:55,359 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:50:55,359 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:50:55,367 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:50:55,367 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:51:14,898 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:51:14,898 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-22 12:51:14,898 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:51:14,902 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:51:14,902 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:53:39,934 [Worker-125: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:53:39,934 [Worker-125: Launching Executing clean in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-09-22 12:53:43,714 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:53:43,716 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-22 12:53:43,722 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2019-09-22 12:53:43,802 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:53:43,802 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ProjectFres\pdfReaderExample\src\test\resources
+2019-09-22 12:53:43,802 [Worker-138: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pdfReaderExample
+2019-09-22 12:53:43,803 [Worker-138: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pdfReaderExample
+2019-09-22 12:53:43,806 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-22 12:53:54,411 [Worker-135: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\ProjectFres\pdfReaderExample
+2019-09-22 12:53:54,411 [Worker-135: Launching Executing install in D__ProjectFres_pdfReaderExample] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install

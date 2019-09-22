@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+* {
+box-sizing: border-box;	
+}
+
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	margin:0;
+	background-image:linear-gradient(to right,rgba(142,198,171,0.49),rgba(238,242,242,1))
+}
+
+header {
+	padding:20px;
+	text-align:center;
+	color:#373B44;
+	font-size:1.6em;
+	font-family:Comic Sans MS;
+}
+
+footer {
+	padding:4px;
+	text-align:auto;
+	margin-bottom:0;
+	margin-top:0;
+	color:#0000ff;
+	font-size:0.7rem;
+	
+}
+
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+ 
+[type="file"] + label {
+  background-color: #606c88;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 1rem;
+  width:max-content;
+  padding:40px;
+}
+
+[type="submit"] {
+  background-color: #606c88;
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1rem 1rem;
+}
+  
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #649173;
+}
+
+[type="submit"]:focus + label,
+[type="submit"] + label:hover {
+    background-color: #649173;
+}
+  
+[type="file"]:focus + label {
+  outline: 1px dotted #000;
+}
+
+
+div.form{
+display:inline-block
+
+}
+
+fieldset {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border: 2px groove;
+  box-shadow:0 0 10px #999;
+  border-radius:10px;
+  width:100%;
+}
+
+input[type=text],input[type=number] , textarea {
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing: border-box;
+margin-top:6px;
+margin-bottom:16px;
+resize:vertical;
+}
+.container {
+border-radius:6px
+}
+
+#nationality,#fee,#Subsidry {
+font-size:14px;
+}

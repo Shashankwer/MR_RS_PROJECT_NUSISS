@@ -1,0 +1,718 @@
+package com.example;
+import com.example.demo.parser.userinfo;
+
+dialect "java"
+
+rule "NICF-Vision systems"
+      when
+          u:userinfo(TechnicalSkills.indexOf("vision system")!=-1 && (CareerPath==1 || CareerPath==10))
+      then
+        u.addCourse(11);
+     end
+     
+rule "NICF- Intelligent Sensing && Sense Making " 
+     when
+         u:userinfo(TechnicalSkills.indexOf("signal processing")!=-1 && (CareerPath==1 || CareerPath==10))
+     then
+         u.addCourse(1);
+         end     
+         
+rule "NICF-Machine reasoning"
+     when
+         u:userinfo(TechnicalSkills.indexOf("algebra")!=-1 && (CareerPath==1 || CareerPath==10))
+     then
+         u.addCourse(2);
+         end         
+         
+rule "NICF-New media && sentiment mining"
+      when
+          u:userinfo(isCourseInCourseList(9) && (CareerPath==1 || CareerPath==10 || CareerPath==2))
+      then
+          u.addCourse(3);
+       end         
+       
+rule "NICF- Pattern Recognition && Machine Learning Systems"
+      when
+         u:userinfo(TechnicalSkills.indexOf("python")!=-1 && (CareerPath==1 || CareerPath==10))
+      then
+         u.addCourse(4);
+         end
+ 
+rule "NICF-Problem solving using pattern recognition"
+     when
+        u:userinfo(TechnicalSkills.indexOf("probability")!=-1 && (CareerPath==1 || CareerPath==10))
+      then
+         u.addCourse(5);
+      end
+
+rule "NICF-Reasoning systems"
+      when
+          u:userinfo(((TechnicalSkills.indexOf("r")!=-1) || (TechnicalSkills.indexOf("java")!=-1)) && (CareerPath==1 || CareerPath==10))
+      then
+          u.addCourse(6);
+      end      
+
+rule "NICF-Robotic systems"
+     when 
+        u:userinfo(TechnicalSkills.indexOf("ros")!=-1 && (CareerPath==1 || CareerPath==10))
+     then
+         u.addCourse(7);
+      end
+      
+rule "NICF- Spatial Reasoning from Sens|| Data"
+      when
+          u:userinfo(TechnicalSkills.indexOf("pattern recognition")!=-1 && (CareerPath==1 || CareerPath==10))
+      then
+          u.addCourse(8);
+      end
+
+rule "NICF-text analytics"
+     when
+        u:userinfo(TechnicalSkills.indexOf("machine reasoning")!=-1 && (CareerPath==1 || CareerPath==10 || CareerPath==2))
+     then
+        u.addCourse(9);
+      end
+
+rule "NICF- Text Processing using Machine Learning"
+     when
+         u:userinfo(TechnicalSkills.indexOf("model building")!=-1 && (CareerPath==1 || CareerPath==10 || CareerPath==2))
+     then
+         u.addCourse(10);
+     end      
+            
+rule "Certified Cloud Security Professional (CCSP Exam Only)"
+     when
+         u:userinfo(KeyPositions.indexOf("enterprise architect")!=-1 && (CareerPath==10 || CareerPath==3 || CareerPath==4))
+     then
+          u.addCourse(12);
+     end
+      
+rule "Certified Information Systems Security Professional (CISSP Exam Only)"
+      when
+          u:userinfo(KeyPositions.indexOf("security engineer")!=-1 && (CareerPath==10 || CareerPath==3 || CareerPath==4))
+      then
+          u.addCourse(13);
+      end
+     
+rule "Certified Secure Software Lifecycle Professional (CSSLP Exam Only)"
+      when
+          u:userinfo( ((KeyPositions.indexOf("systems engineer")!=-1) || (KeyPositions.indexOf("software")!=-1)) && WorkExperience>=4 && (CareerPath==10 || CareerPath==3 || CareerPath==4))
+      then
+          u.addCourse(14);
+      end
+      
+rule "CCSP CBK Training Seminar (SF)"
+      when
+          u:userinfo(KeyPositions.indexOf("system engineer")!=-1 && (CareerPath==10 || CareerPath==3 || CareerPath==4))
+      then
+          u.addCourse(15);
+      end
+
+rule "NICF- (ISC) CISSP CBK Training Seminar"
+      when
+         u:userinfo(KeyPositions.indexOf("system architect")!=-1 && (CareerPath==10 || CareerPath==3 || CareerPath==4 || CareerPath==5	))
+      then 
+          u.addCourse(16);
+      end
+
+rule "NICF- (ISC)² CSSLP CBK Training Seminar"   
+      when 
+          u:userinfo(KeyPositions.indexOf("security specialist")!=-1 && (CareerPath==10 || CareerPath==4))
+      then
+          u.addCourse(17);
+      end
+            
+rule "NICF- Cyber Security for ICT Professionals (SF)"   
+      when 
+          u:userinfo(KeyPositions.indexOf("software")!=-1 && (CareerPath==10 || CareerPath==4 || CareerPath==3))
+      then
+          u.addCourse(18);
+      end      
+
+rule "Cybersecurity Risk Awareness"   
+      when 
+          u:userinfo((KeyPositions.indexOf("C-suite executive")!=-1 || KeyPositions.indexOf("manager")!=-1) && (CareerPath==10 || CareerPath==4 || CareerPath==3))
+      then
+          u.addCourse(19);
+      end
+      
+rule "NICF- Design Secure Mobile Architecture (SF)"   
+      when 
+          u:userinfo((KeyPositions.indexOf("software")!=-1 || KeyPositions.indexOf("security")!=-1) && (CareerPath==5 || CareerPath==4 || CareerPath==3 || CareerPath==10))
+      then
+          u.addCourse(20);
+      end
+
+rule "NICF- Managing Cybersecurity Risk (SF)"   
+      when 
+          u:userinfo((TechnicalSkills.indexOf("cyber")!=-1 || KeyPositions.indexOf("cyber")!=-1) && ( CareerPath==4 || CareerPath==3 || CareerPath==10))
+      then
+          u.addCourse(21);
+      end
+      
+
+rule "NICF- Platform Security (SF)"   
+      when 
+          u:userinfo((TechnicalSkills.indexOf("cyber")!=-1 || KeyPositions.indexOf("cyber")!=-1 || TechnicalSkills.indexOf("architecture")!=-1 || KeyPositions.indexOf("software")!=-1) && (isCourseInCourseList(16) || WorkExperience>3) && ( CareerPath==4 || CareerPath==3 || CareerPath==10))
+      then
+          u.addCourse(22);
+      end                        
+
+rule "NICF- Secure Software Development Lifecycle for Agile"  
+      when
+          u:userinfo((TechnicalSkills.indexOf("software")!=-1 || KeyPositions.indexOf("software")!=-1) && ( CareerPath==4 || CareerPath==3 || CareerPath==10 || CareerPath ==	5))
+      then
+          u.addCourse(23);
+      end
+      
+rule "NICF-Securing IoT"
+      when
+          u:userinfo((TechnicalSkills.indexOf("security")!=-1 || KeyPositions.indexOf("security")!=-1 || TechnicalSkills.indexOf("iot")!=-1 || KeyPositions.indexOf("software")!=-1) && ( CareerPath==4 || CareerPath==3 || CareerPath==10 || CareerPath ==	5))
+      then
+          u.addCourse(24);
+      end
+      
+rule "NICF-Customer analytics"
+     when
+        u:userinfo((TechnicalSkills.indexOf("analytics")!=-1 || KeyPositions.indexOf("business")!=-1) && ( CareerPath==10 || CareerPath ==2))
+     then
+        u.addCourse(28);
+     end
+     
+rule "NICF- Big Data Engineering for Analytics (SF)"
+      when
+         u:userinfo(TechnicalSkills.indexOf("spark")!=-1 && (CareerPath==2|| CareerPath==5 || CareerPath==10))
+      then
+          u.addCourse(26);
+      end
+        
+rule "NICF-Campaign analytics"
+      when
+         u:userinfo(TechnicalSkills.indexOf("statistical software")!=-1 && (CareerPath==2 || CareerPath==10))
+      then
+          u.addCourse(27);
+      end
+
+rule "NICF-Advanced customer analytics"
+      when
+         u:userinfo(isCourseInCourseList(28) && (CareerPath==2 || CareerPath==10))
+      then
+          u.addCourse(25);
+      end
+
+rule "NICF-data analytics process and best practices"
+      when
+          u:userinfo(isCourseInCourseList(38) && (CareerPath==2 || CareerPath==10))
+      then
+          u.addCourse(29);
+      end
+
+rule "NICF-Data driven decision making"
+     when
+         u:userinfo(TechnicalSkills.indexOf("data analysis")!=-1 && (CareerPath==2||CareerPath==3 || CareerPath==10))
+     then
+         u.addCourse(30);
+     end
+
+rule "NICF- Data Governance & Protection"
+      when
+         u:userinfo(KeyPositions.indexOf("information security")!=-1 && (CareerPath==2||CareerPath==3 || CareerPath==10))
+      then
+          u.addCourse(31);
+          end   
+
+rule "NICF-Data Storytelling"
+     when
+         u:userinfo(TechnicalSkills.indexOf("powerpoint")!=-1 && (CareerPath==2||CareerPath==3 || CareerPath==10))
+     then
+          u.addCourse(32);
+     end
+
+rule "NICF-Health analytics"
+      when
+          u:userinfo(KeyPositions.indexOf("health domain")!=-1 && (CareerPath==2||CareerPath==3 || CareerPath==10))
+      then
+           u.addCourse(33);
+      end
+
+rule "NICF- Managing Business Analytics Projects "
+     when
+        u:userinfo(TechnicalSkills.indexOf("predictive analytics")!=-1 && (CareerPath==2||CareerPath==6 || CareerPath==10))
+      then 
+         u.addCourse(34);
+      end     
+      
+rule "NICF-Predictive analytics-insights of trends & irregularities"
+      when
+         u:userinfo(TechnicalSkills.indexOf("excel")!=-1 && (CareerPath==2 || CareerPath==10))
+      then
+         u.addCourse(35);
+      end
+
+rule "NICF- Recommender Systems (SF)"
+      when
+         u:userinfo(TechnicalSkills.indexOf("statistics")!=-1 && isCourseInCourseList(38) && (CareerPath==2 || CareerPath==10))
+      then
+         u.addCourse(36);
+      end
+      
+rule "NICF-Social  media analytics"
+     when
+         u:userinfo(TechnicalSkills.indexOf("social media")!=-1 && isCourseInCourseList(38) && (CareerPath==2 || CareerPath==10))
+     then
+         u.addCourse(37);
+     end
+     
+rule "NICF-statistics bootcamp"
+     when 
+        u:userinfo(TechnicalSkills.indexOf("programming")!=-1 && (CareerPath==2 || CareerPath==10))
+     then
+        u.addCourse(38);
+      end
+
+rule "NICF- Statistics for Business (SF)"
+     when 
+        u:userinfo((CareerPath==2 || CareerPath==10))
+     then
+        u.addCourse(39);
+      end
+
+rule "NICF-Web analytics and SEO"
+     when
+         u:userinfo(TechnicalSkills.indexOf("web analytics")!=-1 && (CareerPath==2 || CareerPath==10))
+     then
+         u.addCourse(40);
+     end
+     
+rule "NICF-Web analytics and SEO-alter"
+     when
+         u:userinfo(TechnicalSkills.indexOf("web analytics")!=-1 && (CareerPath==2 || CareerPath==7 || CareerPath==10))
+     then
+         u.addCourse(41);
+     end
+     
+rule "NICF-Service analytics"
+      when
+          u:userinfo(TechnicalSkills.indexOf("qlik sense tools")!=-1 && (CareerPath==2 || CareerPath==10))
+      then
+          u.addCourse(42);
+      end
+      
+rule "Certified scrum product owner"
+     when
+         u:userinfo(TechnicalSkills.indexOf("scrum")!=-1 && (CareerPath==3 || CareerPath==6 ||CareerPath==8 || CareerPath==10))
+     then
+         u.addCourse(43);
+     end
+     
+rule "NICF - Lean IT Foundation Certification (SF)"
+     when
+         u:userinfo((TechnicalSkills.indexOf("it")!=-1 || KeyPositions.indexOf("it")!=-1) && (CareerPath==8 || CareerPath==10))
+     then
+         u.addCourse(44);
+     end
+     
+rule "NICF-Agile testing"
+      when
+          u:userinfo(WorkExperience>=2 && (CareerPath==5 ||CareerPath==8 || CareerPath==10))
+      then
+          u.addCourse(45);
+      end     
+
+rule "NICF-business agility bootcamp"
+     when
+         u:userinfo(KeyPositions.indexOf("manager")!=-1 && (CareerPath==3 ||CareerPath==8 || CareerPath==10))
+     then
+         u.addCourse(46);
+      end
+
+rule "NICF- Business Analysis for Agile Practitioners (SF)"
+     when
+         u:userinfo( (KeyPositions.indexOf("analyst")!=-1 || KeyPositions.indexOf("software")!=-1)  && (CareerPath==3 ||CareerPath==8 || CareerPath==10))
+     then
+         u.addCourse(47);
+     end
+
+
+rule "NICF- Certified LeSS Practitioner - Principles to Practices"
+      when 
+         u:userinfo( isCourseInCourseList(49)  && (CareerPath==8 || CareerPath==10) )
+      then
+          u.addCourse(48);
+      end
+
+rule "NICF-Certified scrum master"
+      when
+          u:userinfo( KeyPositions.indexOf("software analysts")!=-1  && (CareerPath==8 || CareerPath==6|| CareerPath==10) )
+      then 
+          u.addCourse(49);
+      end
+
+rule "NICF-DevOps foundation with Bizops"
+     when
+         u:userinfo( KeyPositions.indexOf("digital professional")!=-1  && (CareerPath==8 || CareerPath==10) )
+     then 
+         u.addCourse(50);
+     end
+
+rule "NICF-Essential Practices for agile teams"
+     when
+        u:userinfo( TechnicalSkills.indexOf("java")!=-1  && (CareerPath==8 || CareerPath==5 ||CareerPath==10) )
+     then
+     u.addCourse(51);
+     end
+     
+rule "NICF- ITIL® Foundation Certificate in IT Service Management"
+      when
+          u:userinfo( (TechnicalSkills.indexOf("it")!=-1 || KeyPositions.indexOf("it")!=-1) && (CareerPath==8 ||CareerPath==10) )
+      then
+          u.addCourse(52);
+      end
+
+rule "NICF- ITIL® Service Offerings and Agreements Certificate (SF)"
+      when
+          u:userinfo( (KeyPositions.indexOf("manager")!=-1 || KeyPositions.indexOf("team leader")!=-1) && (CareerPath==8 ||CareerPath==10) )
+      then
+          u.addCourse(53);
+      end     
+
+rule "NICF- PMI Agile Certified Practitioner (PMI-ACP)® Preparatory Course"
+      when
+         u:userinfo( (KeyPositions.indexOf("project")!=-1 || KeyPositions.indexOf("experience")!=-1) && WorkExperience>=1 && (CareerPath==8 || CareerPath==6 ||CareerPath==10) )
+      then
+          u.addCourse(54);
+      end
+
+rule "NICF-System thinking and root cause analysis"
+      when
+         u:userinfo((KeyPositions.indexOf("social")!=-1 || TechnicalSkills.indexOf("social")!=-1)  && (CareerPath==8 ||CareerPath==10) )
+      then
+          u.addCourse(55);
+      end
+
+rule "NICF-Digital and social engagement strategy"
+     when
+         u:userinfo((KeyPositions.indexOf("digital marketing")!=-1 || TechnicalSkills.indexOf("digital marketing")!=-1)  && (CareerPath==7 ||CareerPath==10) )
+     then
+         u.addCourse(56);
+     end
+     
+rule "NICF- Innovation Bootcamp (SF)"
+     when
+         u:userinfo((KeyPositions.indexOf("service")!=-1 || KeyPositions.indexOf("customer")!=-1 || TechnicalSkills.indexOf("service")!=-1)  && (CareerPath==7 || CareerPath==3 ||CareerPath==10) )
+     then
+         u.addCourse(58);
+     end
+
+rule "Mobile user experience design"
+      when
+         u:userinfo((TechnicalSkills.indexOf("adobe xd")!=-1)  && (CareerPath==7 ||CareerPath==10) )
+      then
+          u.addCourse(59);
+      end
+
+rule "NICF-service design"
+     when
+          u:userinfo((KeyPositions.indexOf("market")!=-1 || KeyPositions.indexOf("market")!=-1)  && (CareerPath==7 || CareerPath==5 ||CareerPath==10) )
+     then
+          u.addCourse(60);
+     end
+     
+rule "NICF- Strategic Design & Innovation (SF)"
+     when
+          u:userinfo((KeyPositions.indexOf("manager")!=-1)  && (CareerPath==7  ||CareerPath==10) )
+     then
+          u.addCourse(61);
+     end
+
+rule "NICF- Technopreneurship"
+     when
+        u:userinfo( (CareerPath==7 ||CareerPath==10))
+     then
+          u.addCourse(62);
+     end
+     
+rule "architecting platforms as a business"
+     when
+         u:userinfo((KeyPositions.indexOf("digital")!=-1 || TechnicalSkills.indexOf("digital")!=-1)  && (CareerPath==6 ||CareerPath==5 ||CareerPath==10) )
+     then
+         u.addCourse(63);
+     end
+
+rule "NICF-Digital product strategy"
+      when
+         u:userinfo((KeyPositions.indexOf("digital")!=-1 || TechnicalSkills.indexOf("digital")!=-1)  && (CareerPath==6||CareerPath==5 ||CareerPath==10) )
+      then
+         u.addCourse(64);
+       end     
+
+rule "NICF- PMP® For Project Managers"
+     when
+        u:userinfo((KeyPositions.indexOf("product manager")!=-1 || TechnicalSkills.indexOf("manage")!=-1)  && (CareerPath==6||CareerPath==5 ||CareerPath==10) )
+     then
+         u.addCourse(65);
+     end
+
+rule "NICF- PRINCE2® (PRojects IN Controlled Environments) - Foundation and Practitioner Certificate (SF)"
+     when
+        u:userinfo((KeyPositions.indexOf("manager")!=-1 || TechnicalSkills.indexOf("manage")!=-1)  && (CareerPath==6||CareerPath==10) )
+     then
+         u.addCourse(66);
+     end
+
+rule "NICF-Product thinking for organisations"
+      when
+          u:userinfo((KeyPositions.indexOf("product")!=-1 || TechnicalSkills.indexOf("product")!=-1)  && (CareerPath==6||CareerPath==10) )
+      then 
+          u.addCourse(67);
+      end
+
+rule "NICF-Strategic Product manager"
+      when
+          u:userinfo((KeyPositions.indexOf("marketing manager")!=-1)  && (CareerPath==6||CareerPath==5 ||CareerPath==10) )
+      then
+          u.addCourse(68);
+      end
+
+rule "NICF-Strategic Product market fit"
+      when 
+          u:userinfo((KeyPositions.indexOf("product")!=-1 || TechnicalSkills.indexOf("product")!=-1)  && (CareerPath==6||CareerPath==10) )
+      then
+          u.addCourse(69);
+     end
+     
+rule "NICF- PMI Agile Certified Practitioner (PMI-ACP)® Preparatory Course -olter"
+      when
+         u:userinfo((KeyPositions.indexOf("agile")!=-1 || TechnicalSkills.indexOf("agile")!=-1) && WorkExperience>=5  && (CareerPath==6||CareerPath==10) )
+      then
+          u.addCourse(70);
+       end
+
+rule "Project Management Professional (PMP® Exam Only)"
+      when
+         u:userinfo((KeyPositions.indexOf("re engineering")!=-1 || TechnicalSkills.indexOf("agile")!=-1) && WorkExperience>=5  && (CareerPath==6||CareerPath==10) )
+      then
+          u.addCourse(71);
+      end       
+
+rule "Certified Business Analysis Professional (CBAP®) Preparatory Course"
+      when
+          u:userinfo((TechnicalSkills.indexOf("professional")!=-1 ||TechnicalSkills.indexOf("analyst")!=-1||TechnicalSkills.indexOf("analysis")!=-1||KeyPositions.indexOf("analyst")!=-1) && (CareerPath==3||CareerPath==10) )
+      then
+          u.addCourse(72);
+      end 
+
+rule "NICF- Business Process Reengineering (SF)"
+      when
+          u:userinfo((KeyPositions.indexOf("re engineering")!=-1) && (CareerPath==3||CareerPath==10) )
+      then
+          u.addCourse(73);
+      end       
+   
+rule "NICF- Certified Enterprise Architecture Practitioner Course"
+      when
+          u:userinfo((KeyPositions.indexOf("it")!=-1 && TechnicalSkills.indexOf("it")!=-1) && (CareerPath==3||CareerPath==10) )
+      then 
+          u.addCourse(74);
+      end
+
+rule "NICF- COBIT® 5 Foundation (SF)"
+      when
+          u:userinfo((KeyPositions.indexOf("governance")!=-1 || TechnicalSkills.indexOf("governance")!=-1 || KeyPositions.indexOf("cio")!=-1 || KeyPositions.indexOf("cto")!=-1 || KeyPositions.indexOf("manager")!=-1 || WorkExperience>=14) && (CareerPath==3||CareerPath==10) )
+      then 
+          u.addCourse(75);
+      end
+      
+rule "NICF- Digital Transformation Planning (SF)"
+      when
+          u:userinfo((KeyPositions.indexOf("governance")!=-1 || TechnicalSkills.indexOf("governance")!=-1 || KeyPositions.indexOf("cio")!=-1 || KeyPositions.indexOf("cto")!=-1 || KeyPositions.indexOf("manager")!=-1 || WorkExperience>=14) && (CareerPath==3||CareerPath==10) )
+      then 
+          u.addCourse(76);
+      end
+
+rule "NICF-Enterprise architecture masterclass"
+      when
+          u:userinfo((KeyPositions.indexOf("ea")!=-1 || TechnicalSkills.indexOf("ea")!=-1 || KeyPositions.indexOf("cio")!=-1 || KeyPositions.indexOf("cto")!=-1 || KeyPositions.indexOf("manager")!=-1 || WorkExperience>=14) && (CareerPath==3||CareerPath==10) )
+      then
+          u.addCourse(77);
+      end
+
+rule "NICF- Enterprise Digital Governance (SF)"
+      when
+          u:userinfo((KeyPositions.indexOf("cio")!=-1 || KeyPositions.indexOf("cto")!=-1 || KeyPositions.indexOf("manager")!=-1 || KeyPositions.indexOf("director")!=-1 || WorkExperience>=14)   && (CareerPath==3||CareerPath==10) )
+      then
+          u.addCourse(78);
+      end
+
+
+rule "NICF-Strategic business analysis"
+      when
+          u:userinfo((KeyPositions.indexOf("cio")!=-1 || KeyPositions.indexOf("cto")!=-1 || KeyPositions.indexOf("manager")!=-1 || KeyPositions.indexOf("director")!=-1 || WorkExperience>=14 || TechnicalSkills.indexOf('anlytics')!=-1 ||KeyPositions.indexOf('anlytics')!=-1 )   && (CareerPath==3||CareerPath==10) )
+      then
+          u.addCourse(79);
+      end      
+      
+rule "NICF-architecting IoT solutions"
+     when
+         u:userinfo(isCourseInCourseList(87) && (CareerPath==5||CareerPath==10))
+     then 
+         u.addCourse(80);
+     end      
+      
+rule "NICF- Architecting Software Solutions (SF)"
+     when
+         u:userinfo(( TechnicalSkills.indexOf("uml")!=-1 || TechnicalSkills.indexOf("programming")!=-1) && (CareerPath==5||CareerPath==10))
+     then 
+         u.addCourse(81);
+     end         
+
+rule "NICF-Cloud native solution design"
+      when
+           u:userinfo((TechnicalSkills.indexOf("uml")!=-1 || TechnicalSkills.indexOf("programming")!=-1 || TechnicalSkills.indexOf("data design")!=-1 ) && (CareerPath==5||CareerPath==10))
+      then
+           u.addCourse(82);
+      end
+      
+
+      
+rule "NICF- Designing Cloud-enabled Mobile Applications"
+     when
+         u:userinfo((TechnicalSkills.indexOf("analyst")!=-1 || KeyPositions.indexOf("analyst")!=-1) && (CareerPath==5||CareerPath==10))
+     then
+         u.addCourse(83);
+     end
+
+rule "NICF-Design intelligent edge computing"
+      when
+          u:userinfo((TechnicalSkills.indexOf("software")!=-1 || KeyPositions.indexOf("develop")!=-1 || KeyPositions.indexOf("it")!=-1|| KeyPositions.indexOf("manager")!=-1 || TechnicalSkills.indexOf("c#")!=-1) && (CareerPath==5||CareerPath==10))
+      then
+          u.addCourse(84);
+      end
+
+rule "NICF-envisioning smart urban IoT solutions"
+      when 
+           u:userinfo((TechnicalSkills.indexOf("software")!=-1 || KeyPositions.indexOf("develop")!=-1 || KeyPositions.indexOf("it")!=-1|| KeyPositions.indexOf("architect")!=-1 || TechnicalSkills.indexOf("c#")!=-1) && (CareerPath==5||CareerPath==10))
+      then 
+           u.addCourse(85);
+      end
+
+rule "NICF-DevOps engineering and automation"
+     when
+         u:userinfo((TechnicalSkills.indexOf("software")!=-1 || KeyPositions.indexOf("software")!=-1 || TechnicalSkills.indexOf("platform")!=-1) && (CareerPath==5||CareerPath==10))
+     then
+         u.addCourse(86);
+     end        
+
+rule "NICF-Humanising smart systems"
+     when
+        u:userinfo((TechnicalSkills.indexOf("python")!=-1 || TechnicalSkills.indexOf("matlab")!=-1) && (CareerPath==5||CareerPath==10))
+     then
+        u.addCourse(88);
+     end
+
+rule "NICF-Object Oriented Analysis & Design"
+      when
+         u:userinfo((TechnicalSkills.indexOf("programming")!=-1 || TechnicalSkills.indexOf("uml")!=-1) && (CareerPath==5||CareerPath==10))
+      then 
+         u.addCourse(89);
+       end
+
+rule "NICF-Object Oriented Design Patterns"
+      when
+          u:userinfo(isCourseInCourseList(89) && (CareerPath==5||CareerPath==10))
+      then
+          u.addCourse(90);
+      end
+      
+rule "NICF-Platform engineering"
+     when
+         u:userinfo(isCourseInCourseList(81) && (CareerPath==5||CareerPath==10))
+     then
+         u.addCourse(91);
+     end
+
+rule "NUS-ISS Certificate in Digital Solutions Development – Foundations"
+      when 
+          u:userinfo((KeyPositions.indexOf("it")!=-1 || KeyPositions.indexOf("it solutions")!=-1) && (CareerPath==5||CareerPath==10))
+      then
+          u.addCourse(92);
+      end          
+
+rule "NICF- Client Side Foundation"
+      when
+         u:userinfo((TechnicalSkills.indexOf("html")!=-1 || TechnicalSkills.indexOf("web")!=-1) && (CareerPath==9||CareerPath==10))
+      then
+         u.addCourse(93);
+     end       
+
+rule "NICF-Containers for deploying and scaling Apps"
+      when
+         u:userinfo((TechnicalSkills.indexOf("crud")!=-1) && (CareerPath==9||CareerPath==10))
+      then
+         u.addCourse(94);
+      end
+
+rule "NICF- Data and Feature Engineering for Machine Learning (SF)"
+      when 
+          u:userinfo((TechnicalSkills.indexOf("python")!=-1) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(95);
+      end
+      
+rule "NICF- Feature Extraction and Supervised Modeling with Deep Learning"
+      when 
+          u:userinfo((TechnicalSkills.indexOf("python")!=-1) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(96);
+      end    
+
+rule "Persistence and analytics fundamentals"
+      when 
+          u:userinfo( (TechnicalSkills.indexOf("python")!=-1 || TechnicalSkills.indexOf("flask")!=-1) && (CareerPath==9||CareerPath==10) )
+      then
+           u.addCourse(97);
+      end
+
+rule "NICF- Python for Data, Ops and Things (SF)"
+      when 
+          u:userinfo((TechnicalSkills.indexOf("python")==-1) && (CareerPath==9||CareerPath==10))
+      then
+           u.addCourse(98);
+      end
+
+rule "NICF-Restful API design"
+      when
+         u:userinfo((TechnicalSkills.indexOf("command line operations")!=-1 || true) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(99);
+      end
+            
+rule "NICF- Security Notification and Messaging Fundamentals "
+      when
+           u:userinfo(isCourseInCourseList(93) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(100);
+      end
+ 
+rule "NICF- Sequence Modeling with Deep Learning"
+      when 
+           u:userinfo(isCourseInCourseList(96) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(101);
+      end
+
+rule "NICF- Server Side Foundation (SF)"
+      when 
+           u:userinfo(TechnicalSkills.indexOf("html")!=-1  && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(102);
+      end
+
+rule "NICF-supervised and unsupervised modeling with machine learning"
+      when 
+          u:userinfo(isCourseInCourseList(95) && (CareerPath==9||CareerPath==10))
+      then
+          u.addCourse(103);
+      end
+
+      

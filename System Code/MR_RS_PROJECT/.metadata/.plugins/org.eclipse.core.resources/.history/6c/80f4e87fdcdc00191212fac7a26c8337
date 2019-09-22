@@ -1,0 +1,73 @@
+package com.example;
+import com.example.demo.opta.courseSchedule;
+import com.example.demo.opta.courseSlots;
+import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+import java.sql.Date;
+global HardSoftScoreHolder scoreHolder;
+
+//Hard Constraints
+rule "Penalizing of putting more than one course in a single slot"
+	when
+		$slot:courseSlots($id:courseSlots)
+		accumulate(
+		courseSchedule(
+		slot_no == $slot,
+	    $allocated:allocated
+		);
+		$allocatedTotal:sum($allocated);
+		$allocatedTotal>1
+		)
+	then 
+		scoreHolder.addHardConstraintMatch(kcontext,-1000);
+end
+//Ensuring that the courseschedule gets allocated
+rule "Assigning one course per slot"
+	when
+		$slot:courseSlots($id:courseSlots)
+		accumulate(
+		courseSchedule(
+		slot_no == $slot,
+	    $allocated:allocated
+		);
+		$allocatedTotal:sum($allocated);
+		$allocatedTotal==1
+		)
+	then 
+		scoreHolder.addHardConstraintMatch(kcontext,+1);
+end
+
+//Ensuring that not more than 1 schedules are allocated
+rule "assign only one course slot per course"
+when			
+	courseSchedule($id:id,$course:course,slot_no!=null)
+	courseSchedule(id!=$id,course==$course,slot_no!=null)		
+then 
+	scoreHolder.addHardConstraintMatch(kcontext,-1000);
+end
+
+//ensuring that dates of the course do not colide 
+rule "date collision"
+when 
+	courseSchedule($id:id,$start:startDate,$end:endTime,slot_no!=null)
+	courseSchedule(id!=$id,slot_no!=null,(startDate==$start||endTime==$end)||(startDate>=$start && endTime<=$end)||(startDate>=$start && startDate<=$end)||(endTime>=$start && endTime<=$end))
+then
+	scoreHolder.addHardConstraintMatch(kcontext,-1000);
+end
+
+rule "date grater than today"
+when 
+	courseSchedule($id:id,$start:startDate,startDate.compareTo(new java.sql.Date(System.currentTimeMillis()))==-1 || endTime.compareTo(new java.sql.Date(System.currentTimeMillis()))==-1,slot_no!=null)
+then
+	System.out.println($startcompareTo(new java.sql.Date(System.currentTimeMillis())));
+	scoreHolder.addHardConstraintMatch(kcontext,-1000);
+end
+
+	
+//Soft Constraints:
+rule "course ordering"
+when 
+	courseSchedule($id:id,$start:startDate,$end:endTime,slot_no!=null)
+	courseSchedule(id>$id,slot_no!=null,startDate>$start && endTime>$end)
+then
+	scoreHolder.addSoftConstraintMatch(kcontext,+10);
+end	

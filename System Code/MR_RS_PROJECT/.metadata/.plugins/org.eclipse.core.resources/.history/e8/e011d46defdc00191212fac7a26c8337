@@ -1,0 +1,43 @@
+package com.example.demo;
+
+import org.kie.api.KieServices;
+import org.kie.api.runtime.KieContainer;
+import org.kie.api.runtime.KieSession;
+import org.kie.api.runtime.rule.FactHandle;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.example.demo.parser.userinfo;
+
+@Component
+public class Service {
+
+	private KieServices ks;
+	private KieContainer kContainer;
+	private KieSession kieSession;
+	
+	@Bean("Service")
+	@Scope(value=ConfigurableBeanFactory.SCOPE_SINGLETON)
+	@Primary
+	public Service getService() {
+		return new Service();
+		
+	}
+	
+	public void initializeRules() {
+		this.ks = KieServices.Factory.get();
+		this.kContainer = ks.getKieClasspathContainer();
+		this.kieSession = kContainer.newKieSession("courseRecommenderKS");
+				
+	}
+	
+	public int fireRules(userinfo person) {
+		FactHandle facts=this.kieSession.insert(person);
+		int rules= this.kieSession.fireAllRules();
+		this.kieSession.delete(facts);
+		return rules;
+	}
+}
